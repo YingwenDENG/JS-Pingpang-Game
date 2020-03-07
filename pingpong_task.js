@@ -78,7 +78,7 @@ function gameOver() {
     ctx.font = "100px Chakra Petch";
     ctx.fillRect(0, 0, width, height);
     ctx.fillStyle = "#FFFFFF";
-    ctx.fillText(winner + "WINS", 60, 230);
+    ctx.fillText(winner + "WINS", 40, 230);
     setTimeout(function () {
         ctx.fillStyle = "#000000";
         ctx.fillRect(0, 0, width, height);
